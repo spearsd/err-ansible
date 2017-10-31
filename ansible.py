@@ -1,4 +1,4 @@
-from errbot import BotPlugin, botcmd, subprocess
+from errbot import BotPlugin, botcmd
 
 class Ansible(BotPlugin):
     """Ansible plugin for Errbot."""
