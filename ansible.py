@@ -7,4 +7,3 @@ class Ansible(BotPlugin):
     def ansible(self, msg, args):
         """Say hello to the world"""
         return subprocess.check_output(['ls','-l'])
-        return "Hello, world!"
