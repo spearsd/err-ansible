@@ -6,4 +6,4 @@ Module = Ansible
 Version = 3
 
 [Documentation]
-Description = Ansible plugin.
+Description = Ansible plugin
