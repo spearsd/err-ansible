@@ -1,4 +1,4 @@
-from errbot import BotPlugin, botcmd
+from errbot import BotPlugin, botcmd, subprocess
 
 class Ansible(BotPlugin):
     """Example 'Hello, world!' plugin for Errbot"""
@@ -6,4 +6,5 @@ class Ansible(BotPlugin):
     @botcmd
     def ansible(self, msg, args):
         """Say hello to the world"""
+        return subprocess.check_output(['ls','-l'])
         return "Hello, world!"
