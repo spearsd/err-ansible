@@ -6,4 +6,5 @@ class Ansible(BotPlugin):
     @botcmd
     def ansible(self, msg, args):
         """Ansible executor"""
-        return subprocess.check_output(['ls','-l'])
+        return 'test' 
+        #subprocess.check_output(['ls','-l'])
