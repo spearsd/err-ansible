@@ -1,0 +1,9 @@
+[Core]
+Name = Ansible
+Module = Ansible
+
+[Python]
+Version = 3
+
+[Documentation]
+Description = Ansible plugin.
